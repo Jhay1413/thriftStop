@@ -5,10 +5,16 @@
   "scripts": {},
   "private": true,
   "dependencies": {
+    "lucide-react": "^0.471.0",
+    "motion": "^11.17.0",
     "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "react-dom": "18.3.1",
+    "react-router": "^7.1.1"
   },
-  "workspaces":["apps/*","libs/*"],
+  "workspaces": [
+    "apps/*",
+    "libs/*"
+  ],
   "devDependencies": {
     "@eslint/js": "^9.8.0",
     "@nx/cypress": "20.3.0",
